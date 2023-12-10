@@ -7,7 +7,7 @@ export default function Primushestva() {
         <div className="row">
           <h2 className='section-tittle'><span>Почему нам можно</span> <br />доверить Ваш ковёр?</h2>
           
-          <div className="col-md-3">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -20,7 +20,7 @@ export default function Primushestva() {
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -41,7 +41,7 @@ export default function Primushestva() {
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -54,7 +54,7 @@ export default function Primushestva() {
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">

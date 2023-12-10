@@ -11,7 +11,7 @@ export default function Services() {
       <div className="container">
         <div className="row">
           <h2><span>Наши</span> услуги</h2>
-          <div className="col-md-3">
+          <div className=" col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <img src={img1} alt="service" />
@@ -21,7 +21,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className=" col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <img src={img2} alt="service" />
@@ -31,7 +31,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className=" col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <img src={img3} alt="service" />
@@ -41,7 +41,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className=" col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <img src={img4} alt="service" />

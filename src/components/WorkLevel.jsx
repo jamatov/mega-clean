@@ -7,7 +7,7 @@ export default function WorkLevel() {
         <div className="row">
           <h2 className='section-tittle'><span>Этапы</span> работы</h2>
           
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -20,7 +20,7 @@ export default function WorkLevel() {
             </div>
           </div>
 
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -32,7 +32,7 @@ export default function WorkLevel() {
             </div>
           </div>
 
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -70,7 +70,7 @@ export default function WorkLevel() {
             </div>
           </div>
 
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -92,7 +92,7 @@ export default function WorkLevel() {
             </div>
           </div>
 
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -129,7 +129,7 @@ export default function WorkLevel() {
             </div>
           </div>
 
-          <div className="col-md-3 mb-4">
+          <div className="col-md-4 col-lg-3 mb-4">
             <div className="card">
               <div className="card-body">
                 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">

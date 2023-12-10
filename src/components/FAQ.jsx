@@ -30,8 +30,7 @@ export default function FAQ() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className='acardion-txt'>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-                Aliquam eget maximus est, id dignissim quam.
+                Оплата за химчистку ковров производится после получения чистых ковров. Разворачивайте, смотрите, оплачивайте наличными, картами и переводами.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -43,14 +42,13 @@ export default function FAQ() {
               id="panel1bh-header"
             >
               <Typography className='acardion-tittle' sx={{ width: '100%', flexShrink: 0 }}>
-                У нас собачка (котик) «сходила» на ковёр. Запах уйдет?
+              У нас собачка (котик) «сходила» на ковёр. Запах уйдет?
               </Typography>
               {/* <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography> */}
             </AccordionSummary>
             <AccordionDetails>
               <Typography className='acardion-txt'>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-                Aliquam eget maximus est, id dignissim quam.
+                Неприятный запах от мочи животных очень стойкий. Чтобы его устранить мы замачиваем ковёр в специальных растворах для растворения кристалликов мочевой кислоты (что невозможно сделать на дому). Тем самым, мы добиваемся полного удаления запаха в 99% случаев.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -68,13 +66,18 @@ export default function FAQ() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className='acardion-txt'>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-                Aliquam eget maximus est, id dignissim quam.
+                Неприятный запах от мочи животных очень стойкий. Чтобы его устранить мы замачиваем ковёр в специальных растворах для растворения кристалликов мочевой кислоты (что невозможно сделать на дому). Тем самым, мы добиваемся полного удаления запаха в 99% случаев.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
-          <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+          
+          
+        </div>
+
+        <div className="col-md-6">
+
+        <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon sx={{ color : "#2F003A"}} />}
               aria-controls="panel1bh-content"
@@ -87,15 +90,10 @@ export default function FAQ() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className='acardion-txt'>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-                Aliquam eget maximus est, id dignissim quam.
+                Если ковер не подлежит чистке и может быть испорчен, уведомляем клиента о возможных рисках и чистим под его ответственность. В случае сомнений проводим предварительный тест.
               </Typography>
             </AccordionDetails>
           </Accordion>
-          
-        </div>
-
-        <div className="col-md-6">
           <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon sx={{ color : "#2F003A"}} />}
@@ -103,13 +101,13 @@ export default function FAQ() {
               id="panel1bh-header"
             >
               <Typography className='acardion-tittle' sx={{ width: '100%', flexShrink: 0 }}>
-                Запах от химии останется? Будет ли ребенку безопасно?
+                Как долго происходит чистка?
               </Typography>
               {/* <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography> */}
             </AccordionSummary>
             <AccordionDetails>
               <Typography className='acardion-txt'>
-                Мы используем только безопасные ковровые шампуни, также наш цикл чистки включает обильное промывание ковра чистой водой до полного вымывания моющих средств. Поэтому не стоит беспокоиться о химическом запахе. Для ребёнка не будет никакого вреда.
+                С учётом транспортной логистики и насыщенности цикла чистки, с момента передачи вашего ковра курьеру до его получения проходит 2-4 рабочих дней.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -127,30 +125,12 @@ export default function FAQ() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className='acardion-txt'>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-                Aliquam eget maximus est, id dignissim quam.
+                Да, мы оказываем услугу по вывозу и доставке ковров. В это входит упаковка грязного ковра, спуск, вывоз, упаковка чистого ковра, доставка, подъем ковра до квартиры.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
-          <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color : "#2F003A"}} />}
-              aria-controls="panel1bh-content"
-              id="panel1bh-header"
-            >
-              <Typography className='acardion-tittle' sx={{ width: '100%', flexShrink: 0 }}>
-              Как долго происходит чистка?
-              </Typography>
-              {/* <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography> */}
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography className='acardion-txt'>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-                Aliquam eget maximus est, id dignissim quam.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
+          
 
          
           

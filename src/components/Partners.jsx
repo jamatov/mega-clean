@@ -17,49 +17,49 @@ export default function Partners() {
       <div className="container">
         <div className="row">
           <h2><span>Наши</span> довольные <br /> клиенты</h2>
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo1} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo2} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img className='qush' src={logo3} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo4} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo5} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo6} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo7} alt="logo" />
             </div>
           </div>
 
-          <div className="col-md-3 number-block mb-3">
+          <div className="col-6 col-md-4 col-lg-3 mb-4 number-block mb-3">
             <div className="card">
               <img src={logo8} alt="logo" />
             </div>
