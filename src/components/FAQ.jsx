@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Partners from './Partners';
 
 export default function FAQ() {
   const [expanded, setExpanded] = React.useState(false);
@@ -12,7 +13,8 @@ export default function FAQ() {
     setExpanded(isExpanded ? panel : false);
   };
   return (
-    <section className='FAQ'>
+    <section id='FAQ'>
+      <div className='FAQ' >
       <div className="container">
         <div className="row">
         <h2>Часто задаваемые <br /> <span>вопросы</span></h2>
@@ -142,6 +144,8 @@ export default function FAQ() {
 
         
       </div>
+    </div>
+    <Partners/>
     </section>
   )
 }

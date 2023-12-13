@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../images/PerfectClean.svg'
 
 export default function Footer() {
   return (
@@ -7,7 +6,6 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <img className='mb-3' src={logo} alt="logo" />
             <p className='logo-info'>© 2023, Perfect Clean – профессиональная <br /> химчистка ковров в Ташкенте</p>
           </div>
           <div className="col-md-6">

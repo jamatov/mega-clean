@@ -368,6 +368,47 @@
       }
     }
   }
+
+  .About{
+    margin-bottom: 100px;   
+    padding: 100px 0;
+    border-radius: 5px;
+    background: linear-gradient(101deg, #001B43 8.26%, #000D21 93.79%);
+    .row{
+      h2{
+        color: var(--white, #FFF);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 50px;
+        span{
+          color: var(--blue, #00B2FF);
+        }
+      }
+      
+      .about-info{
+        p{
+          color: var(--Gray-4, #BDBDBD);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+  
+        img{
+          border-radius: 5px;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+      }
+  
+      .about-2{
+        display: flex;
+        flex-direction: column-reverse !important;  
+      }
+    }
+  }
 }
 
 @media (max-width : 768px) {
@@ -471,6 +512,48 @@
       }
     }
   }
+
+  .About{
+    margin-bottom: 80px;   
+    padding: 100px 0;
+    border-radius: 5px;
+    background: linear-gradient(101deg, #001B43 8.26%, #000D21 93.79%);
+    .row{
+      h2{
+        color: var(--white, #FFF);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 50px;
+        span{
+          color: var(--blue, #00B2FF);
+        }
+      }
+      
+      .about-info{
+        p{
+          color: var(--Gray-4, #BDBDBD);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+  
+        img{
+          border-radius: 5px;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+      }
+  
+      .about-2{
+        display: flex;
+        flex-direction: column-reverse !important;  
+      }
+    }
+  }
+
 
   .Services{
     margin-bottom: 80px;
