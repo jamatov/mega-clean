@@ -35,7 +35,7 @@ export default function ModalForm() {
           className="col-12 col-md-12 contact-form"
           action=""
         >
-          <h3>Получите бесплатную консультацию</h3>
+          <h3>Оставьте заявку</h3>
           <h4>Введите ваш телефон, и технолог перезвонит вам в ближайшее время</h4>
           <input
             value={name}

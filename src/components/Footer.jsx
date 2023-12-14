@@ -25,9 +25,14 @@ export default function Footer() {
               <ul>
                 <li>Telegram</li>
                 <li>Instagram</li>
-                <li>(90) 003 00 69</li>
+                <li>(97) 725 95 30</li>
               </ul>
             </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="webmarketing col-12">
+            <p>Сайт разработан студией</p><a href="https://www.instagram.com/webmarketing.uz/">Web Marketing</a>
           </div>
         </div>
       </div>
