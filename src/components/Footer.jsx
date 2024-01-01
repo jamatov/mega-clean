@@ -23,9 +23,9 @@ export default function Footer() {
               </ul>
 
               <ul>
-                <li>Telegram</li>
-                <li>Instagram</li>
-                <li>(97) 725 95 30</li>
+                <li>(99) 913 00 69</li>
+                <li>(99) 914 00 69</li> 
+                <li>(90) 003 30 69</li>
               </ul>
             </div>
           </div>
